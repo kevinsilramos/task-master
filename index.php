@@ -1,10 +1,8 @@
 <?php
 // ==========================================
-// TASK MASTER - FRONT CONTROLLER MVP
+// TASK MASTER - Kevin Silva
 // ==========================================
 
-// Autoload simples: procura as classes nas pastas do MVP.
-// Atualizamos o Autoload para incluir a pasta Presenter.
 spl_autoload_register(function (string $class): void {
     $dirs = ['Model', 'Presenter', 'View'];
 
