@@ -49,7 +49,7 @@
             text-align: center;
         }
 
-        /* Mensagem de erro enviada pelo Controller */
+        /* Mensagem de erro enviada pelo Presenter */
         .error {
             background: #fee2e2;
             color: #b91c1c;
@@ -204,9 +204,9 @@
     <!-- A View recebe os dados prontos e apenas desenha a tela. -->
     <div class="container">
 
-        <h1>Task Master (MVC Edition)</h1>
+        <h1>Task Master (MVP Edition)</h1>
 
-        <!-- Mostra erro de validação, se o Controller enviar. -->
+        <!-- Mostra erro de validação, se o Presenter enviar. -->
         <?php if (!empty($error)): ?>
             <div class="error">
                 <?php echo htmlspecialchars($error); ?>
